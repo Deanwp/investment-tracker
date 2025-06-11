@@ -1,0 +1,51 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "testuser",
+      "password": "testuser", 
+      "email": "testuser@example.com",
+      "is_superuser": false,
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "investments.userinvestment",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "asset_name": "AAPL",
+      "amount_invested": 1200.00,
+      "purchase_date": "2025-01-15",
+      "current_value": 1300.00,
+      "is_active": true
+    }
+  },
+  {
+    "model": "investments.userinvestment",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "asset_name": "TSLA",
+      "amount_invested": 1500.00,
+      "purchase_date": "2025-03-20",
+      "current_value": 1600.00,
+      "is_active": true
+    }
+  },
+  {
+    "model": "investments.userinvestment",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "asset_name": "GOOGL",
+      "amount_invested": 1000.00,
+      "purchase_date": "2025-02-01",
+      "current_value": 1100.00,
+      "is_active": false
+    }
+  }
+]
